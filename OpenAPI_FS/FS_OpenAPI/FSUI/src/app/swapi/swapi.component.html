@@ -1,0 +1,19 @@
+<p>Swapi People</p>
+
+<table border="1">
+    <tr >
+        <td>name</td>
+        <td>height</td>
+        <td>mass</td>
+        <td>hair-color</td>
+
+    </tr>
+    <br>
+    <p *ngIf="!swapi">Loading....</p> 
+    <tr  *ngFor='let sw of swapi;'>
+        <td>{{sw.name}}</td>
+        <td>{{sw.height}}</td>
+        <td>{{sw.mass}}</td>
+        <td>{{sw.hair_color}}</td>
+    </tr>
+</table>

@@ -1,0 +1,21 @@
+<h1>SovTech</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <nav>
+        <ul>
+          <li><a routerLink="" routerLinkActive="active">Home </a></li>
+          <li><a routerLink="/chuck" routerLinkActive="active">List of Categories </a></li>
+          <li><a routerLink="/swapi" routerLinkActive="active">Swapi People</a></li>
+          <li><a routerLink="/search" routerLinkActive="active">Search </a></li>
+        </ul>
+      </nav>
+    </td>
+    <td style="padding-left: 100px;">
+      <router-outlet></router-outlet>
+    </td>
+  </tr>
+</table>
+<!-- The routed views render in the <router-outlet>-->

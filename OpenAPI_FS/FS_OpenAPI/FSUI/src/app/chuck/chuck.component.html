@@ -1,0 +1,9 @@
+<p>Categories</p>
+
+<ul>    
+    <li *ngFor='let chuck of chucks;'>    
+        
+        <a [routerLink]="['/chuck/' + chuck]" routerLinkActive="active"> {{chuck}} </a>
+        
+    </li>
+</ul>   

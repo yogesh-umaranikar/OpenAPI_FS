@@ -1,8 +1,8 @@
 # OpenAPI_FS
 This solutions contains two projects
-1. Rest API for third party integration  -  Path - ../FS_OpenAPI\FS_OpenAPI
+1. Rest API for third party integration  -  Path - ../OpenAPI_FS/FS_OpenAPI/FS_OpenAPI
 	It uses .NET Core 3.1 which uses third party API 
-2. Angular project for front end  -  Path - ../FS_OpenAPI\FSUI
+2. Angular project for front end  -  Path - ../OpenAPI_FS/FS_OpenAPI/FSUI
 
 
 # Prerequisite 
